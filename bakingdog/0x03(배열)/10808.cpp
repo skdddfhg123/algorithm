@@ -23,3 +23,21 @@ int main(void) {
     for (int i = 0; i < 26; i++)
         cout << check[i] << " ";
 }
+
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+// int check[26];
+
+// int main() {
+//     ios::sync_with_stdio(0);
+//     cin.tie(0);
+//     string s;
+//     cin >> s;
+
+//     for (auto c : s)
+//         check[c - 'a']++;
+//     for (int i = 0; i < 26; i++)
+//         cout << check[i] << ' ';
+// }

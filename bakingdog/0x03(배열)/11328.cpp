@@ -34,3 +34,35 @@ int main(void) {
             cout << "Possible\n";
     }
 }
+
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+// int check[30] = {};
+
+// int main() {
+//     ios::sync_with_stdio(0);
+//     cin.tie(0);
+//     int n;
+//     cin >> n;
+//     while (n--) {
+//         fill(check, check+30, 0);
+//         bool flag = true;
+//         string s, cmp;
+//         cin >> s >> cmp;
+//         for (auto c : s)
+//             check[c - 96]++;
+//         for (auto c : cmp)
+//             check[c - 96]--;
+//         for (int c : check) {
+//             if (c != 0) {
+//                 flag = false;
+//             }
+//         }
+//         if (flag)
+//             cout << "Possible" << '\n';
+//         else
+//             cout << "Impossible" << '\n';
+//     }
+// }
