@@ -15,13 +15,6 @@ void solv(int c, int n) {
 	}
 	solv(c + 1, n);
 	solv(c + 1, n + arr[c]);
-	// for (int i = 0; i < N; i++) {
-	// 	if (!check[arr[i] + 1000000]) {
-    //         check[arr[i] + 1000000] = true;
-    //         solv(c + (arr[i]));
-    //         check[arr[i] + 1000000] = false;
-    //     }
-	// }
 }
 
 int main(void) {
@@ -37,3 +30,4 @@ int main(void) {
 		cnt--;
 	cout << cnt << endl;
 }
+
